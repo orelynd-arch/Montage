@@ -378,9 +378,9 @@ export default function App() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { initials: 'AF', name: 'Aminata Fofana', role: "Fondatrice, Beauté d'Ivoire — Abidjan", text: "Kofi a complètement transformé notre image sur Instagram. Nos reels font maintenant entre 50 000 et 200 000 vues. Il comprend exactement ce que veut notre audience africaine, et les délais sont toujours respectés. Je recommande sans hésitation !" },
-              { initials: 'JK', name: 'Jean-Baptiste Kpossou', role: 'Directeur Marketing, BrewWest Cotonou', text: "Nous avons confié à Kofi le montage de notre spot TV pour le lancement de notre brasserie. Le résultat était époustouflant — un vrai niveau international, avec une sensibilité locale qu'on ne trouve pas ailleurs. Un grand professionnel." },
-              { initials: 'SR', name: 'Safi Rouamba', role: 'YouTubeuse & Coach Business — Ouagadougou', text: "J'avais besoin de génériques animés pour ma chaîne YouTube dédiée à l'entrepreneuriat africain. Kofi a livré en 48h des animations qui m'ont valu des dizaines de compliments de mes abonnés. Prix très compétitif pour la qualité rendue !" },
+              { initials: 'AF', name: 'Aminata Fofana', role: "Fondatrice, Beauté d'Ivoire — Abidjan", text: "JP a complètement transformé notre image sur Instagram. Nos reels font maintenant entre 50 000 et 200 000 vues. Il comprend exactement ce que veut notre audience africaine, et les délais sont toujours respectés. Je recommande sans hésitation !" },
+              { initials: 'JK', name: 'Jean-Baptiste Kpossou', role: 'Directeur Marketing, BrewWest Cotonou', text: "Nous avons confié à JP le montage de notre spot TV pour le lancement de notre brasserie. Le résultat était époustouflant — un vrai niveau international, avec une sensibilité locale qu'on ne trouve pas ailleurs. Un grand professionnel." },
+              { initials: 'SR', name: 'Safi Rouamba', role: 'YouTubeuse & Coach Business — Ouagadougou', text: "J'avais besoin de génériques animés pour ma chaîne YouTube dédiée à l'entrepreneuriat africain. JP a livré en 48h des animations qui m'ont valu des dizaines de compliments de mes abonnés. Prix très compétitif pour la qualité rendue !" },
             ].map((testi, i) => (
               <div key={testi.name}>
                 <Reveal delay={i * 0.1}>
